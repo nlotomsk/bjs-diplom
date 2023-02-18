@@ -14,8 +14,6 @@ userForm.loginFormCallback = (data) => {
     ApiConnector.login({login, password}, cb);
  }
 
- //const registerForm = new RegisterForm();
-
 userForm.registerFormCallback = (data) => {
     const {login,password} = data;
 
